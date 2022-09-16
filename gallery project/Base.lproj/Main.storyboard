@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gallery_project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="photos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jn4-dx-d4s">
+                                <rect key="frame" x="115" y="77" width="184" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="kPE-Us-xgF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pexels-andrea-piacquadio-3774903" translatesAutoresizingMaskIntoConstraints="NO" id="nCm-So-gBt">
+                                <rect key="frame" x="239" y="178" width="120" height="99"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="3rJ-Sq-vmA"/>
+                                    <constraint firstAttribute="width" constant="120" id="RD8-YD-yCs"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pexels-tyler-lastovich-699122" translatesAutoresizingMaskIntoConstraints="NO" id="A2E-dI-mg2">
+                                <rect key="frame" x="47" y="314" width="134" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="XVf-vb-pfj"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pexels-plann-4549416" translatesAutoresizingMaskIntoConstraints="NO" id="W3P-FZ-SLf">
+                                <rect key="frame" x="239" y="741" width="145" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="LxS-lm-7jS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pexels-andrea-piacquadio-3774903" translatesAutoresizingMaskIntoConstraints="NO" id="UNs-Yj-DW3">
+                                <rect key="frame" x="47" y="184" width="134" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="X61-w5-DgM"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pexels-cottonbro-3585088" translatesAutoresizingMaskIntoConstraints="NO" id="F4b-50-ctj">
+                                <rect key="frame" x="229" y="459" width="155" height="105"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pexels-george-milton-6954208" translatesAutoresizingMaskIntoConstraints="NO" id="aJf-RL-ctu">
+                                <rect key="frame" x="44" y="628" width="131" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="kK1-jE-6kT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pexels-tyler-lastovich-699122" translatesAutoresizingMaskIntoConstraints="NO" id="JuE-3f-2J0">
+                                <rect key="frame" x="233" y="314" width="139" height="104"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pexels-plann-4549416" translatesAutoresizingMaskIntoConstraints="NO" id="qOQ-bf-g3y">
+                                <rect key="frame" x="44" y="744" width="131" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="gF0-vK-7pq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pexels-cottonbro-3585088" translatesAutoresizingMaskIntoConstraints="NO" id="M6D-Mb-Gqo">
+                                <rect key="frame" x="60" y="461" width="121" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="103" id="d4z-lp-ckH"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pexels-george-milton-6954208" translatesAutoresizingMaskIntoConstraints="NO" id="Wgl-yy-UMe">
+                                <rect key="frame" x="227" y="628" width="157" height="93"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aJf-RL-ctu" firstAttribute="top" secondItem="JuE-3f-2J0" secondAttribute="top" id="3Gm-NR-16T"/>
+                            <constraint firstItem="qOQ-bf-g3y" firstAttribute="bottom" secondItem="Wgl-yy-UMe" secondAttribute="bottom" id="48I-RH-34P"/>
+                            <constraint firstItem="F4b-50-ctj" firstAttribute="top" secondItem="W3P-FZ-SLf" secondAttribute="bottom" constant="30" id="5bi-Pf-Bvf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="F4b-50-ctj" secondAttribute="trailing" constant="42" id="8BK-pn-9xo"/>
+                            <constraint firstItem="aJf-RL-ctu" firstAttribute="trailing" secondItem="qOQ-bf-g3y" secondAttribute="trailing" id="9T2-Q6-mGj"/>
+                            <constraint firstItem="W3P-FZ-SLf" firstAttribute="leading" secondItem="A2E-dI-mg2" secondAttribute="trailing" constant="55" id="9XV-JH-H9k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qOQ-bf-g3y" secondAttribute="bottom" constant="34" id="Fdf-6K-aMU"/>
+                            <constraint firstItem="M6D-Mb-Gqo" firstAttribute="centerX" secondItem="A2E-dI-mg2" secondAttribute="centerX" id="GQY-xw-AgR"/>
+                            <constraint firstItem="jn4-dx-d4s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="58" id="JAV-JI-l5K"/>
+                            <constraint firstItem="W3P-FZ-SLf" firstAttribute="top" secondItem="nCm-So-gBt" secondAttribute="bottom" constant="41" id="Jke-a7-GCm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W3P-FZ-SLf" secondAttribute="trailing" constant="45" id="Orp-ft-hZB"/>
+                            <constraint firstItem="qOQ-bf-g3y" firstAttribute="top" secondItem="Wgl-yy-UMe" secondAttribute="top" id="QFR-iK-7oa"/>
+                            <constraint firstItem="nCm-So-gBt" firstAttribute="leading" secondItem="W3P-FZ-SLf" secondAttribute="leading" id="RPP-8F-0Jy"/>
+                            <constraint firstItem="F4b-50-ctj" firstAttribute="leading" secondItem="Wgl-yy-UMe" secondAttribute="leading" id="SJg-gZ-H1m"/>
+                            <constraint firstItem="nCm-So-gBt" firstAttribute="leading" secondItem="M6D-Mb-Gqo" secondAttribute="trailing" constant="61" id="TAb-7c-XYP"/>
+                            <constraint firstItem="aJf-RL-ctu" firstAttribute="top" secondItem="UNs-Yj-DW3" secondAttribute="bottom" constant="23" id="U6W-2Q-tQo"/>
+                            <constraint firstItem="A2E-dI-mg2" firstAttribute="bottom" secondItem="W3P-FZ-SLf" secondAttribute="bottom" id="W1p-hR-Zgn"/>
+                            <constraint firstItem="aJf-RL-ctu" firstAttribute="bottom" secondItem="JuE-3f-2J0" secondAttribute="bottom" id="YJw-eS-X90"/>
+                            <constraint firstItem="A2E-dI-mg2" firstAttribute="top" secondItem="M6D-Mb-Gqo" secondAttribute="bottom" constant="52" id="ZRP-Os-qgp"/>
+                            <constraint firstItem="F4b-50-ctj" firstAttribute="leading" secondItem="UNs-Yj-DW3" secondAttribute="trailing" constant="58" id="d2k-pB-1Wq"/>
+                            <constraint firstItem="A2E-dI-mg2" firstAttribute="leading" secondItem="UNs-Yj-DW3" secondAttribute="leading" id="dYT-Ry-OnM"/>
+                            <constraint firstItem="jn4-dx-d4s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="fcN-QL-GYB"/>
+                            <constraint firstItem="UNs-Yj-DW3" firstAttribute="top" secondItem="A2E-dI-mg2" secondAttribute="bottom" constant="42" id="fgg-mZ-FaJ"/>
+                            <constraint firstItem="qOQ-bf-g3y" firstAttribute="top" secondItem="aJf-RL-ctu" secondAttribute="bottom" constant="23" id="gTD-mg-FhI"/>
+                            <constraint firstItem="JuE-3f-2J0" firstAttribute="trailing" secondItem="Wgl-yy-UMe" secondAttribute="trailing" id="gtC-fH-dac"/>
+                            <constraint firstItem="A2E-dI-mg2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="hOp-wf-fwy"/>
+                            <constraint firstItem="JuE-3f-2J0" firstAttribute="leading" secondItem="aJf-RL-ctu" secondAttribute="trailing" constant="67" id="k37-3G-Pit"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nCm-So-gBt" secondAttribute="trailing" constant="58" id="kAY-Ih-nb4"/>
+                            <constraint firstItem="aJf-RL-ctu" firstAttribute="leading" secondItem="qOQ-bf-g3y" secondAttribute="leading" id="lUJ-2L-Fhn"/>
+                            <constraint firstItem="M6D-Mb-Gqo" firstAttribute="trailing" secondItem="aJf-RL-ctu" secondAttribute="trailing" id="m1J-dp-zeK"/>
+                            <constraint firstItem="JuE-3f-2J0" firstAttribute="top" secondItem="F4b-50-ctj" secondAttribute="bottom" constant="35" id="rgR-8e-S5g"/>
+                            <constraint firstItem="jn4-dx-d4s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rhW-v2-Q7e"/>
+                            <constraint firstItem="aJf-RL-ctu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="we8-q0-5PA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JuE-3f-2J0" secondAttribute="trailing" constant="39" id="xtT-p5-lsJ"/>
+                            <constraint firstItem="A2E-dI-mg2" firstAttribute="trailing" secondItem="UNs-Yj-DW3" secondAttribute="trailing" id="yDX-4j-XWl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.6956521739130448" y="61.607142857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pexels-andrea-piacquadio-3774903" width="5760" height="3840"/>
+        <image name="pexels-cottonbro-3585088" width="3476" height="5214"/>
+        <image name="pexels-george-milton-6954208" width="4000" height="6000"/>
+        <image name="pexels-plann-4549416" width="4452" height="6678"/>
+        <image name="pexels-tyler-lastovich-699122" width="3885" height="2857"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
